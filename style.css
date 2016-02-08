@@ -1,4 +1,4 @@
-body { max-width: 1200px; margin:auto;} 
+body { max-width: 1200px; margin:auto; background-color: grey; font-family: Helvetica Neue,Helvetica,Arial,sans-serif;} 
 /* Mobile First */
 [class*="col-"] {float:left; background-color:#999; box-sizing: border-box; border:solid 1px #333; width:100%;} 
 
@@ -33,3 +33,14 @@ body { max-width: 1200px; margin:auto;}
 	.col-offset-8{margin-left: 80.0%;}
 	.col-offset-9{margin-left: 90.0%;}
 	.col-offset-10{margin-left: 100.0%;}
+
+	img {width: 30%; height: 15%;}
+h1{  text-align: center;}
+p { text-align: center;}
+
+.boton {position: absolute; right: 400px;}
+header {background-image: "JORNADA.jpg";}
+.foto2{width: 30%; height: 10%;}
+.info {margin:0 ; padding:5%; height:20%; text-align: center;background: white;}
+.info2{width:400px; height:400px; float:left;}
+.info2 img{ width: 400px; height: 200px;}
