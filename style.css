@@ -1,0 +1,35 @@
+body { max-width: 1200px; margin:auto;} 
+/* Mobile First */
+[class*="col-"] {float:left; background-color:#999; box-sizing: border-box; border:solid 1px #333; width:100%;} 
+
+@media only screen and (min-width: 768px) 
+{
+	/* Clearfix */
+	.row:after {content: '';display: block; clear: both;}
+
+	/* Floating cols, and padding */
+	[class*="col-"] {float:left; box-sizing: border-box; border:solid 1px #333; padding:0x;}
+
+	/* Columns */
+	.col-1{width: 10.0%;}
+	.col-2{width: 20.0%;}
+	.col-3{width: 30.0%;}
+	.col-4{width: 40.0%;}
+	.col-5{width: 50.0%;}
+	.col-6{width: 60.0%;}
+	.col-7{width: 70.0%;}
+	.col-8{width: 80.0%;}
+	.col-9{width: 90.0%;}
+	.col-10{width: 100.0%;}
+
+	/* Offsets */
+	.col-offset-1{margin-left: 10.0%;}
+	.col-offset-2{margin-left: 20.0%;}
+	.col-offset-3{margin-left: 30.0%;}
+	.col-offset-4{margin-left: 40.0%;}
+	.col-offset-5{margin-left: 50.0%;}
+	.col-offset-6{margin-left: 60.0%;}
+	.col-offset-7{margin-left: 70.0%;}
+	.col-offset-8{margin-left: 80.0%;}
+	.col-offset-9{margin-left: 90.0%;}
+	.col-offset-10{margin-left: 100.0%;}
