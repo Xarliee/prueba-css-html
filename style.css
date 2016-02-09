@@ -16,8 +16,8 @@ body { max-width: 1200px; margin:auto; background-color: grey; font-family: Helv
 	.col-3{width: 30.0%;}
 	.col-4{width: 40.0%;}
 	.col-5{width: 50.0%;}
-	.col-6{width: 60.0%;}
-	.col-7{width: 70.0%;}
+	.col-6{width: 60.0%; height: 400px; text-align: center; padding-top: 0;}
+	.col-7{width: 70.0%;background: grey;}
 	.col-8{width: 80.0%;}
 	.col-9{width: 90.0%;}
 	.col-10{width: 100.0%;}
@@ -41,7 +41,7 @@ p { text-align: center;}
 .boton {position: absolute; right: 400px; border-style: 3px ;}
 header {background-image:JORNADA.jpg";background-repeat: no-repeat;
 background-size: 100%; }
-.foto2{width: 30%; height: 10%;}
+.foto2{width: 30%; height: 10%; margin-left: 400px;}
 .info {margin:0 ; padding:5%; height:20%; text-align: center;background: white;}
 .info2{width:400px; height:400px; float:left;}
 .info2 img{ width: 400px; height: 200px;}
@@ -52,7 +52,7 @@ h3 {text-align: center;}
 .df{width: 200px; height:100px;}
 .micro{width: 200px; height:100px;}
 .apoyo{margin: 0 0 0 0; background: white;
-	width: 1200px;
-.persona{ height:300px; float:left;}
+	width: 1200px;}
+
 
 
